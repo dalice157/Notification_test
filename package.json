@@ -2,7 +2,7 @@
   "name": "backend-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dalice157.github.io/notification_test/",
+  "homepage": "https://dalice157.github.io/Notification_test/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
