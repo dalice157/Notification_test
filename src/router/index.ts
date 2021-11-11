@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
 
-console.log('process.env.NODE_ENV:', process.env.NODE_ENV);
+console.log('process.env.NODE_ENV:', process.env.NODE_ENV === "production" ? '/Notification_test/' : '/');
 
 const routes: Array<RouteRecordRaw> = [
   {
