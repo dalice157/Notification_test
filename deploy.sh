@@ -11,7 +11,7 @@ cd dist
 # 提交到本地仓库
 
 git init
-git add -A
+git add .
 git commit -m 'deploy'
 
 # 提交到 https://github.com:nusr/resume-vue 项目的 gh-pages 分支
