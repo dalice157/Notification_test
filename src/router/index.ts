@@ -3,12 +3,12 @@ import Home from '../views/Home.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
+    path: process.env.NODE_ENV === 'production' ? '/Notification_test/' : '/',
     name: 'Home',
     component: Home
   },
   {
-    path: '/about',
+    path: process.env.NODE_ENV === 'production' ? '/Notification_test/about' : '/about',
     name: 'About',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
