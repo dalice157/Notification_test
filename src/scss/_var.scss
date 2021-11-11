@@ -1,0 +1,69 @@
+/**
+  * 文字大小
+  * 計算器 https://www.w3schools.com/tags/ref_pxtoemconversion.asp
+  */
+  $font_html: 16px !default;  //rem root value for html element.
+  $font-base: 1rem !default;
+  $font-size-5: ($font-base * .3125) !default;
+  $font-size-6: ($font-base * .375) !default;     
+  $font-size-7: ($font-base * .4375) !default;
+  $font-size-8: ($font-base * .5) !default;
+  $font-size-9: ($font-base * .5625) !default;
+  $font-size-10: ($font-base * .625) !default;
+  $font-size-12: ($font-base * .75) !default;
+  $font-size-13: ($font-base * .8125) !default;
+  $font-size-14: ($font-base * .875) !default;
+  $font-size-15: ($font-base * .9375) !default;
+  $font-size-16: ($font-base * 1) !default;
+  $font-size-17: ($font-base * 1.0625) !default;
+  $font-size-18: ($font-base * 1.125) !default;
+  $font-size-19: ($font-base * 1.1875) !default;
+  $font-size-20: ($font-base * 1.25) !default;
+  $font-size-22: ($font-base * 1.375) !default;
+  $font-size-23: ($font-base * 1.4375) !default;
+  $font-size-24: ($font-base * 1.5) !default;
+  $font-size-26: ($font-base * 1.6 ) !default;
+  $font-size-28: ($font-base * 1.75 ) !default;
+  $font-size-30: ($font-base * 1.875 ) !default;
+  $font-size-32: ($font-base * 2) !default;
+  $font-size-33: ($font-base * 2.0625) !default;
+  $font-size-34: ($font-base * 2.125) !default;
+  $font-size-36: ($font-base * 2.25) !default;
+  $font-size-38: ($font-base * 2.375) !default;
+  $font-size-40: ($font-base * 2.5) !default;
+  $font-size-42: ($font-base * 2.625) !default;
+  $font-size-44: ($font-base * 2.75) !default;
+  $font-size-46: ($font-base * 2.875) !default;
+  $font-size-62: ($font-base * 3.875) !default;
+ 
+ /**
+  * 顏色
+  */
+ $black: #000000 !default;
+ $white: #FFFFFF !default;
+ $gray-100: #f8f8f8 !default;
+ $gray-200: #ebebeb !default;
+ $gray-300: #d8d8d8 !default;
+ $gray-400: #979797 !default;
+ $gray-500: #4a4a4a !default;
+ 
+ $primary-1: #eafbf9 !default;
+ $primary-2: #b8f6ec !default;
+ $primary-3: #00dbb6 !default;
+ $primary-4: #00cdab !default;
+ $primary-5: #0bae92 !default;
+ 
+ $secondary-1: #e1f0f7 !default;
+ $secondary-2: #8ad0e7 !default;
+ $secondary-3: #0080a9 !default;
+ $secondary-4: #005f7d !default;
+ $secondary-5: #18517a !default;
+ $secondary-6: #003149 !default;
+ 
+ $third-1: #fff7e6 !default;
+ $third-2: #ffebbf !default;
+ $third-3: #f8b422 !default;
+ $third-4: #f29a00 !default;
+ $third-5: #d58800 !default;
+ 
+ $danger: #ff6363;
